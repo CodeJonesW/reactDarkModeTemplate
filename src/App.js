@@ -9,7 +9,9 @@ import { lightTheme, darkTheme } from "./components/Themes";
 
 const StyledContainer = styled.div`
   display: flex;
-  flexDirection: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 function App() {
